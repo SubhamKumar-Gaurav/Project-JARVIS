@@ -55,7 +55,7 @@ def takeCommand():
 
 if __name__ == "__main__":
     wishMe()
-    if 1 :
+    while True :
         query = takeCommand().lower()
 
         # Logic for executing tasks based on query
